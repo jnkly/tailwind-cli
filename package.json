@@ -1,0 +1,20 @@
+{
+  "name": "tailwind-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i tailwind.css -o ./layouts/css/styles.css --watch",
+    "prod": "npx tailwindcss -i tailwind.css -o ./layouts/css/styles.css --minify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.0.15"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.0"
+  }
+}
